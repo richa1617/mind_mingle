@@ -1,0 +1,155 @@
+/* General*/
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #d7ddf9;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Card-1 (Result section)*/
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.result {
+  border-radius: 5%;
+  height: 529px;
+  width: 370px;
+  background: linear-gradient(180deg, #667eea 0%, #7512da 100%);
+}
+
+.result h1 {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  font-size: 30px;
+}
+.circle {
+  width: 230px;
+  height: 230px;
+  background: linear-gradient(180deg, #7512da 0%, #667eea 100%);
+
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+  margin-top:50px
+}
+.circle p {
+  text-align: center;
+  color: white;
+
+  margin-top: 40px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p span {
+  font-size: 90px;
+  text-align: center;
+  display: block;
+  font-weight: 700;
+}
+
+.result h4 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin: 50px 80px;
+  font-weight: 500;
+}
+
+/* Card-2 (Summary section)*/
+.summary {
+  height: 529px;
+  width: 380px;
+  background-color: white;
+  border-radius: 0 5% 5% 0;
+  padding: 20px;
+  transform: translateX(-20px);
+  z-index: -1;
+}
+
+.main-heading {
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+  margin-top: 15px;
+}
+.bar {
+  margin: 20px 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-self: space-between;
+}
+
+.bar svg {
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+}
+.bar h1 {
+  font-size: 20px;
+}
+
+.reaction {
+  background-color: #fdeded;
+  color: #ee6363;
+}
+
+.visual {
+  background-color: #fef5e1;
+  color: #fac447;
+}
+
+.verbal {
+  background-color: #f2fbfa;
+  color: #2faf90;
+}
+
+.frist-value {
+  color: black;
+  display: inline;
+}
+.second-value {
+  color: #b3b3b3;
+  font-weight: 500;
+}
+
+.first-value {
+  margin-left: 50px;
+  color: #272343;
+  font-weight: 500;
+}
+.reaction .firtst-value {
+  color: #b3b3b3;
+}
+
+.visual .first-value,
+.verbal .first-value {
+  margin-left: 70px;
+}
+
+.btn {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 60px;
+  border-radius: 30px;
+  padding: 20px;
+  background: linear-gradient(180deg, #7512da 0%, #667eea 100%);
+  border: none;
+  color: white;
+  font-size: 20px;
+}
