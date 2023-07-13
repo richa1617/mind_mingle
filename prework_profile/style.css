@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.personal {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+}
+
+.personal a{
+    position :absolute;
+    right:0px;
+    text-decoration: none;
+    
+}
+
+button{
+    display:block;
+ background-color: #00796f;
+  color: white;
+  padding: 15px 25px;
+  border-radius:5px;
+  border:none;
+  margin :5px;
+  letter-spacing: 1.5px;
+  width: 120px;
+  height: 50px;
+  transition: width 1s, box-shadow 1s;
+ 
+ 
+}
+
+button:hover{
+  background-color: #bcd3d1;
+  color: #00796f;
+  cursor:pointer;
+  box-shadow: 5px 5px 5px #050505;
+  width:125px;
+
+}
+.personal::before {
+  content: "";
+  background-image: url(/Users/akashmahajan/Desktop/github2/Profile/images/pic2.jpg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.intro {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  background-color: #00796f;
+}
+
+.name {
+  font-size: 6rem;
+  line-height: 1.7;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+.goal {
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.goal span {
+  font-weight: 600;
+}
+
+/* About me */
+
+#about-me {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(/Users/akashmahajan/Desktop/github2/Profile/images/green.jpg); 
+  background-size: cover;
+  
+}
+
+.main-heading {
+  text-align: center;
+  font-size: 5rem;
+  padding:10px;   
+  color: #00796f;
+  text-shadow: 1.5px 1.5px 2px white;
+  letter-spacing: 40px;
+}
+
+.tag-line {
+  text-align: center;
+  font-size: 2.5rem;
+  color: black
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.background,
+.details,
+.hobbies {
+  margin: 20px;
+  background-color: #deebdd;
+  background-image: linear-gradient(#ecefec, #00796f);
+  border-radius: 2%;
+  box-shadow: 10px 10px 10px #050505;
+  transition: transform 2s;
+}
+
+
+.background:hover,
+.details:hover,
+.hobbies:hover{
+    transform:translateY(-20px);
+    
+}
+.sub-heading {
+  color: #00796f;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+.sub-heading::first-letter {
+  font-size: 8rem;
+}
+
+.background p,
+.details p,
+.hobbies p {
+  font-size: 2rem;
+  padding: 15px;
+  color: #011d1b;
+}
+
+
+.social {
+  text-align: center;
+}
+
+.social i {
+  font-size: 4rem;
+  margin: 20px;
+  color: #dfe8e8;
+}
+
+.fa-linkedin:hover,
+.fa-square-instagram:hover,
+.fa-square-github:hover {
+  color: black;
+  font-size: 5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+
+  }
+}
