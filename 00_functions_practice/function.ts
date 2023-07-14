@@ -216,21 +216,97 @@ function uniqueCountires(a: Country[]): string[] {
 
 //
 
-function countCountries(a: Country[]): Record<string, number> {
-  let names = a.map((e) => e.country);
+// function countCountries(a: Country[]): Record<string, number> {
+//   let names = a.map((e) => e.country);
 
-  let result={}
+//   let result={}
 
-  for(let i=0;i<names.length;i++){
-    if(names[i] in result){
-        result[names[i]] 
-        
-        
-    }else{
-      result={...result, names[i]:1}
+//   for(let i=0;i<names.length;i++){
+//     if(names[i] in result){
+//         result[names[i]]
+
+//     }else{
+//       result={...result, names[i]:1}
+//     }
+
+//   }
+
+//   return result;
+// }
+
+function highestNumber(arr: number[]): number {
+  return Math.max(...arr);
+}
+
+//console.log(highestNumber([4, 5, 6, 10, 1, 90]));
+
+function average(arr: number[]): number {
+  let sum = arr.reduce((a, c) => a + c);
+  return sum / (arr.length - 1);
+}
+
+//console.log(average([2, 5, 5, 10, 20]));
+
+function mode(arr: number[]) {
+  let hash = new Map();
+
+  for (let i = 0; i < arr.length; i++) {
+    if (hash.has(arr[i])) {
+      hash.set(arr[i], hash.get(arr[i]) + 1);
+    } else {
+      hash.set(arr[i], 1);
     }
-
   }
 
+  const max = Math.max(...hash.values());
+}
+
+//console.log(mode([1, 2, 2, 3, 3, 2, 1]));
+
+// reverse
+// Write a function with one string argument. Return the reversed string.
+
+function reverse(s: string): string {
+  let w = s.trim();
+  return [...w].reverse().join("");
+}
+//console.log(reverse("Hello "));
+
+//palindrome
+// Write a function with one string argument. Return true or false wether this string is a palindrome.
+
+function palindrom(s: string): boolean {
+  let word = s.toLowerCase();
+  let mid = Math.floor(s.length / 2);
+  let i = 0;
+  let j = word.length - 1;
+  while (i < mid) {
+    if (word[i] != word[j]) {
+      return false;
+    } else {
+      i++;
+      j--;
+    }
+  }
+
+  return true;
+}
+
+//console.log(palindrom("racecAr"));
+
+//pyramid
+//Write a function with one number argument. Have it log a pyramid of that size
+
+function pyramid(n: number) {
+  let result = ""; //1,2,3
+  for (let i = 1; i <= n; i++) {
+    let curr = i; //1
+    for (let j = 1; j <= curr; j++) {
+      result += i + " ";
+    }
+    result += "\n";
+  }
   return result;
 }
+
+console.log(pyramid(3));
