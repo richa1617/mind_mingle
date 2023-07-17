@@ -1,0 +1,63 @@
+html {
+  font-size: 10px;
+}
+
+.navbar {
+  padding: 10px;
+  margin-bottom: 40px;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+
+  font-size: 2rem;
+}
+
+.navbar_li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav_item_list a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+  padding: 10px;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+
+.description {
+  margin: 20px;
+  padding: 30px;
+}
+
+.description h2 {
+  font-size: 3rem;
+}
+
+.description p {
+  font-size: 1.5rem;
+}
