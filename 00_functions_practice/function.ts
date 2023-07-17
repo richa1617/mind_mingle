@@ -143,7 +143,7 @@ function splitComibne(a: string, b: string): string {
   let s1 = a_word1 + b_word1;
   let s2 = a_word2 + b_word2;
 
-  console.log(a_word1);
+  //console.log(a_word1);
 
   let result = s1.length >= s2.length ? s1 : s2;
 
@@ -309,4 +309,73 @@ function pyramid(n: number) {
   return result;
 }
 
-console.log(pyramid(3));
+//console.log(pyramid(3));
+
+// array_intersect
+// Write a function that takes two [number] arguments and return an array that contains all numers that are in both arrays.
+
+function intersect(a: number[], b: number[]): number[] {
+  let result: number[] = [];
+
+  for (let i = 0; i < a.length; i++) {
+    let ele = a[i];
+    for (let j = 0; j < b.length; j++) {
+      if (ele == b[j]) {
+        result.push(ele);
+        break;
+      }
+    }
+  }
+  return result;
+}
+
+console.log(intersect([2, 3, 7, 910], [3, 4, 6, 7, 2]));
+interface Person {
+  id: number;
+  name: string;
+  age: number;
+}
+
+const people:Person[] =[
+  { id: 1, name: "John", age: 30 },
+  { id: 2, name: "Mary", age: 25 },
+  { id: 3, name: "Bob", age: 40 },
+  { id: 4, name: "Alice", age: 20 },
+  { id: 5, name: "Mark", age: 50 },
+  { id: 6, name: "Julia", age: 27 }
+];
+
+function evenIds(arr:Person[]){
+   let even=people.filter((people)=>{
+      let id=people.id
+      return id %2 ===0
+   })
+  return even
+}
+
+
+//console.log(evenIds(people))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
