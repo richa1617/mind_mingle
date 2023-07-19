@@ -12,6 +12,12 @@ function animal() {
   const [animal, setAnimal] = useState<null | Animal>(null);
 
   useEffect(() => {
+    if (animal?.hasBeenFed !== null) {
+      console.log("yummy");
+    }
+  }, [animal?.hasBeenFed]);
+
+  useEffect(() => {
     const foundAnimal = animals.find((e) => e.name === animalFromUrl);
     if (foundAnimal) {
       setAnimal(foundAnimal);
