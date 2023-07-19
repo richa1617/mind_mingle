@@ -6,6 +6,7 @@ import Link from "next/link";
 
 export default function Home() {
   let animals = animalsJson as Animal[];
+
   let animal_category = animals.map((e) => e.kind);
   let unique_category = Array.from(new Set(animal_category)); //["cow","chicken","sheep","pig"]
 

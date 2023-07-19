@@ -16,7 +16,9 @@ function category() {
         return (
           <>
             <h1>{e.name}</h1>
-            <button>Know more about me</button>
+            <Link href={`/${kind}/${e.name}`}>
+              <button>Know more about me</button>
+            </Link>
           </>
         );
       })}
