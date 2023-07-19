@@ -14,12 +14,12 @@ function category() {
     <div>
       {category.map((e) => {
         return (
-          <>
+          <div key={e.id}>
             <h1>{e.name}</h1>
             <Link href={`/${kind}/${e.name}`}>
               <button>Know more about me</button>
             </Link>
-          </>
+          </div>
         );
       })}
     </div>

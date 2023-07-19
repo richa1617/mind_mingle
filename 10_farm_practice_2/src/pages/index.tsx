@@ -26,13 +26,13 @@ export default function Home() {
 
       {unique_category.map((e) => {
         return (
-          <>
+          <div key={e}>
             <Link href={`${e}`}>
               <button>{e}</button>
               <br></br>
               <br></br>
             </Link>
-          </>
+          </div>
         );
       })}
     </>
