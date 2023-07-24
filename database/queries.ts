@@ -32,6 +32,7 @@ const createMany = async () => {
 //   console.log(students);
 // };
 
+
 const unique = async () => {
   const students = await prisma.student.findFirst({
     where: {
