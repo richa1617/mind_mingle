@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Garfield",
+      "kind": "Cat",
+      "ownerId" : 1
+    },
+    {
+      "name": "Snoopy",
+      "kind": "Dog",
+      "ownerId" : 2
+    },
+    {
+      "name": "Tweety",
+      "kind": "Bird",
+      "ownerId" : 1
+    },  
+    {
+      "name": "Goo",
+      "kind": "Cat",
+      "ownerId" : 5
+    },
+    {
+      "name": "Pig",
+      "kind": "Pig",
+      "ownerId" : 4
+    },
+    {
+      "name": "Feathers",
+      "kind": "Bird",
+      "ownerId" : 3
+    },
+    {
+      "name": "Garfield",
+      "kind": "Cat",
+      "ownerId" : 3
+    },
+    {
+      "name": "Snoopy",
+      "kind": "Dog",
+      "ownerId" : 3
+    },
+    {
+      "name": "Tweety",
+      "kind": "Bird",
+      "ownerId" : 2
+    }, 
+     {
+      "name": "Goo",
+      "kind": "Cat",
+      "ownerId" : 5
+    },
+    {
+      "name": "Bessi",
+      "kind": "Cow",
+      "ownerId" : 2
+    },
+    {
+      "name": "Free",
+      "kind": "Bird",
+      "ownerId" : 3
+    }
+  ]
+  
