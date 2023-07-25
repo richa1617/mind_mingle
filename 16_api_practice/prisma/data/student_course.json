@@ -1,0 +1,43 @@
+[
+    {
+      "studentId": 1,
+      "courseId": 1
+    },
+    {
+      "studentId": 1,
+      "courseId": 3
+    },
+    {
+      "studentId": 1,
+      "courseId": 5
+    },
+    {
+      "studentId": 2,
+      "courseId": 2
+    },
+    {
+      "studentId": 2,
+      "courseId": 4
+    },
+    {
+      "studentId": 2,
+      "courseId": 6
+    },
+    {
+      "studentId": 3,
+      "courseId": 3
+    },
+    {
+      "studentId": 3,
+      "courseId": 7
+    },
+    {
+      "studentId": 3,
+      "courseId": 9
+    },
+    {
+      "studentId": 4,
+      "courseId": 1
+    }
+  ]
+  
