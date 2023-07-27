@@ -1,0 +1,64 @@
+[
+    {
+      "title": "Complete Project Proposal",
+      "description": "Write a detailed project proposal for the upcoming project.",
+      "userId": 3,
+      "taskStatus" :true
+
+    },
+    {
+      "title": "Prepare Presentation",
+      "description": "Create a PowerPoint presentation for the team meeting.",
+      "userId": 2,
+      "taskStatus" :false
+    },
+    {
+      "title": "Review Code Changes",
+      "description": "Review and provide feedback on the latest code changes.",
+      "userId": 2,
+      "taskStatus" :false
+    },
+    {
+      "title": "Test New Feature",
+      "description": "Perform testing on the newly developed feature.",
+      "userId": 7,
+      "taskStatus" :true
+    },
+    {
+      "title": "Submit Expense Report",
+      "description": "Compile and submit the monthly expense report.",
+      "userId": 1,
+      "taskStatus" :false
+    },
+    {
+      "title": "Update User Interface",
+      "description": "Implement changes to the user interface based on the feedback.",
+      "userId": 5,
+      "taskStatus" :true
+    },
+    {
+      "title": "Fix Bug in Authentication",
+      "description": "Investigate and fix the bug related to authentication.",
+      "taskStatus" :false
+    
+    },
+    {
+      "title": "Optimize Database Queries",
+      "description": "Identify and optimize slow-performing database queries.",
+      "userId": 9,
+      "taskStatus" :false
+    },
+    {
+      "title": "Write API Documentation",
+      "description": "Document the usage and endpoints of the API.",
+      "taskStatus" :true
+      
+    },
+    {
+      "title": "Implement User Authentication",
+      "description": "Add user authentication and authorization functionality.",
+      "userId": 10,
+      "taskStatus" :true
+    }
+  ]
+  
