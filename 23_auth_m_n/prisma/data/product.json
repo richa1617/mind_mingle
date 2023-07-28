@@ -1,0 +1,42 @@
+[
+  {
+    "category": "Electronics",
+    "price": 799
+  },
+  {
+    "category": "Electronics",
+    "price": 499
+  },
+  {
+    "category": "Electronics",
+    "price": 1099
+  },
+  {
+    "category": "Clothing",
+    "price": 39
+  },
+  {
+    "category": "Clothing",
+    "price": 59
+  },
+  {
+    "category": "Clothing",
+    "price": 79
+  },
+  {
+    "category": "Books",
+    "price": 12
+  },
+  {
+    "category": "Books",
+    "price": 25
+  },
+  {
+    "category": "Books",
+    "price": 18
+  },
+  {
+    "category": "Electronics",
+    "price": 899
+  }
+]
