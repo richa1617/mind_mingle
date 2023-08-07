@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 999.99,
+      "quantity": 5,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "name": "Phone",
+      "price": 699.99,
+      "quantity": 10,
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "name": "Headphones",
+      "price": 149.99,
+      "quantity": 8,
+      "userId": 2
+    }
+  ]
+  

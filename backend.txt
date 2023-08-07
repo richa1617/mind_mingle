@@ -1,0 +1,67 @@
+BACKEND
+
+npm init -y
+npm install typescript
+npx tsc --init
+npm install tsx
+npm install prisma
+npx prisma init
+
+This creates a prisma folder:
+.env file : "file:./dev.db"
+sqlite
+npm install @prisma/client
+
+
+*For using express
+npm install express
+npm install @types/express
+
+
+Edit schema and add model : npx prisma db push
+To run prisma studio :  npx prisma studio
+
+
+
+Create seed file in  prisma folder and create data folder with json file in prisma folder
+
+
+Create a queries.ts file 
+Run seed file as npx tsx seed.ts
+
+
+Force reset npx prisma db push --force-reset
+
+
+/For post request:
+
+When we use POST request :
+import { json } from "express";
+
+// Tell the app to allow json in the request body
+app.use(json());
+
+
+
+
+//For cors: npm install cors
+
+When we use JWT
+To install jwt :
+npm i jsonwebtoken
+npm i @types/jsonwebtoken
+
+create auth folder in prisma folder and create a jwt.ts file
+
+import {toToken} from "./prisma/auth/jwt"
+
+
+  // const joketoUpdateBe = await prisma.jokes.findUnique({
+  //   where: {
+  //     id: idAsNumber,
+  //   },
+  // });
+  // if (!joketoUpdateBe) {
+  //   res.status(404).send(`Joke with id of ${idAsNumber} not found`);
+  //   return;
+  // }

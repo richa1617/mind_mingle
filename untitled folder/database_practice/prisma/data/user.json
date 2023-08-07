@@ -1,0 +1,35 @@
+
+[
+  {
+    "username": "john_doe",
+    "email": "john@example.com",
+    "products": [
+      {
+        "name": "Laptop",
+        "price": 999.99,
+        "quantity": 2
+      },
+      {
+        "name": "Phone",
+        "price": 699.99,
+        "quantity": 5
+      }
+    ]
+  },
+  {
+    "username": "jane_smith",
+    "email": "jane@example.com",
+    "products": [
+      {
+        "name": "Headphones",
+        "price": 149.99,
+        "quantity": 3
+      },
+      {
+        "name": "Tablet",
+        "price": 499.99,
+        "quantity": 1
+      }
+    ]
+  }
+]
